@@ -1,0 +1,36 @@
+* {
+  font-family: "Mukta", sans-serif;
+}
+.main {
+  width: 630px;
+  position: relative;
+  left: calc(50% - 310px);
+}
+.img {
+  position: relative;
+}
+.img {
+  display: inline-block;
+  margin: 0 10px;
+}
+.img > p {
+  display: inline-block;
+  position: absolute;
+  bottom: 20%;
+  left: 0px;
+  border: 1px white solid;
+  background-color: white;
+  padding: 4px;
+  font-size: 30px;
+}
+.date {
+  color: gray;
+  margin: 0 10px;
+}
+h1 {
+  font-weight: normal;
+  margin: 0 10px;
+}
+.txt {
+  margin: 0 10px;
+}
