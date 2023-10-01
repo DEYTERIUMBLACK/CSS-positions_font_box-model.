@@ -1,0 +1,15 @@
+* {
+  font-family: open sans condensed;
+}
+h1 {
+  text-align: center;
+  font-size: 55px;
+}
+div {
+  width: 80%;
+  position: relative;
+  left: calc(50% - 522px);
+}
+h4 {
+  color: red;
+}
