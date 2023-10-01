@@ -1,0 +1,53 @@
+nav {
+  color: white;
+  background-color: rgb(0, 162, 255);
+  padding: 5px;
+}
+.section1 {
+  height: 320px;
+  background-color: aquamarine;
+  position: relative;
+}
+.box1 {
+  background-color: rgb(59, 206, 96);
+  width: 600px;
+  padding: 3px;
+  border: 3px green solid;
+  border-radius: 5px;
+  position: absolute;
+  left: calc(50% - 300px);
+  top: 10%;
+}
+.box2 {
+  background-color: rgb(255, 54, 54);
+  width: 300px;
+  color: white;
+  padding: 3px;
+  border: 3px red solid;
+  border-radius: 5px;
+  text-align: center;
+  font-style: italic;
+  position: absolute;
+  left: calc(50% - 150px);
+  bottom: 10%;
+}
+.box2 > b > a {
+  color: white;
+  font-size: 20px;
+}
+.section2 {
+  background-color: rgb(18, 7, 85);
+  color: white;
+  padding: 10px 0;
+}
+footer {
+  background-color: rgb(7, 3, 36);
+  padding: 10px;
+  text-align: center;
+  color: rgb(0, 162, 255);
+}
+footer > a {
+  text-decoration: none;
+  color: rgb(0, 162, 255);
+  padding: 0 30px;
+}
