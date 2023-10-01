@@ -1,23 +1,22 @@
-.box{
-    height: 200px;
-    width: 400px;
-    border: 3px black solid;
-    overflow-y: scroll;
-    position: relative;
-    left: calc(50% - 210px);
-    top: 50px;
+.box {
+  height: 200px;
+  width: 400px;
+  border: 3px black solid;
+  overflow-y: scroll;
+  position: relative;
+  left: calc(50% - 210px);
+  top: 50px;
 }
-.Big{
-    background-color: gray;
-    padding:5px;
-    position: sticky;
+.Big {
+  background-color: gray;
+  padding: 5px;
+  position: sticky;
 }
-.boxofbig{
-    position: sticky;
-    top: 0;
+.boxofbig {
+  position: sticky;
+  top: 0;
 }
-li{
-    list-style-type: none;
-    text-indent: -70px;
+li {
+  list-style-type: none;
+  text-indent: -70px;
 }
-
